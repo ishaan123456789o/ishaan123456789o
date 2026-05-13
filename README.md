@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi, I'm Ishaan
 
-<!--
-**ishaan123456789o/ishaan123456789o** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a software builder who loves shipping robust solutions. I'm deeply passionate about the intersection of advanced AI and backend infrastructure, focusing primarily on B2B platforms and agentic systems.
 
-Here are some ideas to get you started:
+## What I'm Building & Exploring
+* Agentic Infrastructure: Architecting AI agents with strong memory integrity and sanitation layers.
+* Retrieval-Augmented Generation (RAG): Building context-aware data pipelines.
+* Computer Vision: Training real-time detection and state-management tracking models.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Languages & Tech Stack
+* Languages: Python, TypeScript, JavaScript, C++
+* Frameworks & Vision: React, OpenCV, YOLO
+* Infrastructure & Data: AWS, Google Cloud, Docker, Supabase
+* Deployment: Vercel, Railway, Render
