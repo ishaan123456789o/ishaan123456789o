@@ -1,6 +1,6 @@
 # Hi, I'm Ishaan
 
-I'm a software builder who loves shipping robust solutions. I'm deeply passionate about the intersection of advanced AI and backend infrastructure, focusing primarily on B2B platforms and agentic systems.
+I'm a software builder who loves shipping robust solutions. I'm deeply passionate about the intersection of advanced AI and backend infrastructure, focusing primarily on B2B platforms and agentic systems. I'm currently a Machine Learning Engineer Intern @ Shopify and previously a Software Engineer Intern @ IBM!
 
 ## What I'm Building & Exploring
 * Agentic Infrastructure: Architecting AI agents with strong memory integrity and sanitation layers.
