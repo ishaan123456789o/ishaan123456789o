@@ -1,4 +1,10 @@
+<div align="center">
+
 # Hi, I'm Ishaan
+
+<img src="./assets/intro.svg" alt="Machine Learning Engineer Intern at Shopify; previously Software Engineer Intern at IBM; Computer Science and Engineering at UCLA." />
+
+</div>
 
 I'm a software builder who loves shipping robust solutions. I'm deeply passionate about the intersection of advanced AI and backend infrastructure, focusing primarily on B2B platforms and agentic systems. I'm currently a Machine Learning Engineer Intern @ Shopify and previously a Software Engineer Intern @ IBM!
 
