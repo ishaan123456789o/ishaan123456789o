@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="48" viewBox="0 0 480 48" role="img" aria-labelledby="title description">
+  <title id="title">Ishaan Saraswat</title>
+  <desc id="description">Machine Learning Engineer Intern at Shopify; previously Software Engineer Intern at IBM; Computer Science and Engineering at UCLA.</desc>
+  <style>
+    svg { color: #57606a; }
+    text {
+      fill: currentColor;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 15px;
+    }
+    .line {
+      opacity: 0;
+      animation: show-line 12.6s linear infinite;
+      animation-delay: var(--delay);
+    }
+    .reveal {
+      transform: scaleX(0);
+      transform-box: fill-box;
+      transform-origin: left center;
+      animation: type-line 12.6s steps(var(--characters), end) infinite;
+      animation-delay: var(--delay);
+    }
+    .cursor {
+      stroke: currentColor;
+      stroke-width: 1.5;
+      animation: move-cursor 12.6s steps(var(--characters), end) infinite,
+        blink-cursor 0.8s step-end infinite;
+      animation-delay: var(--delay), 0s;
+    }
+    .static { display: none; }
+    @keyframes show-line {
+      0%, 33.32% { opacity: 1; }
+      33.33%, 100% { opacity: 0; }
+    }
+    @keyframes type-line {
+      0%, 32.54%, 100% { transform: scaleX(0); }
+      16.67%, 28.57% { transform: scaleX(1); }
+    }
+    @keyframes move-cursor {
+      0%, 32.54%, 100% { transform: translateX(0); }
+      16.67%, 28.57% { transform: translateX(var(--text-width)); }
+    }
+    @keyframes blink-cursor {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @media (prefers-color-scheme: dark) {
+      svg { color: #8b949e; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .animated { display: none; }
+      .line, .reveal, .cursor { animation: none; }
+      .static { display: block; }
+    }
+  </style>
+  <defs>
+    <clipPath id="shopify-reveal">
+      <rect class="reveal" style="--delay: 0s; --characters: 28" width="252" height="48" />
+    </clipPath>
+    <clipPath id="ibm-reveal">
+      <rect class="reveal" style="--delay: 4.2s; --characters: 27" width="243" height="48" />
+    </clipPath>
+    <clipPath id="ucla-reveal">
+      <rect class="reveal" style="--delay: 8.4s; --characters: 37" width="333" height="48" />
+    </clipPath>
+  </defs>
+  <g class="animated">
+    <g class="line" transform="translate(114 0)" style="--delay: 0s; --characters: 28; --text-width: 252px">
+      <text y="30" clip-path="url(#shopify-reveal)" textLength="252" lengthAdjust="spacingAndGlyphs">ML Engineer Intern @ Shopify</text>
+      <path class="cursor" d="M 1 15 V 33" />
+    </g>
+    <g class="line" transform="translate(118.5 0)" style="--delay: 4.2s; --characters: 27; --text-width: 243px">
+      <text y="30" clip-path="url(#ibm-reveal)" textLength="243" lengthAdjust="spacingAndGlyphs">Previously SWE Intern @ IBM</text>
+      <path class="cursor" d="M 1 15 V 33" />
+    </g>
+    <g class="line" transform="translate(73.5 0)" style="--delay: 8.4s; --characters: 37; --text-width: 333px">
+      <text y="30" clip-path="url(#ucla-reveal)" textLength="333" lengthAdjust="spacingAndGlyphs">Computer Science &amp; Engineering @ UCLA</text>
+      <path class="cursor" d="M 1 15 V 33" />
+    </g>
+  </g>
+  <text class="static" x="240" y="30" text-anchor="middle">ML @ Shopify · ex-IBM · UCLA CSE</text>
+</svg>
